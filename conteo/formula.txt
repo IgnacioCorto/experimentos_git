@@ -1,0 +1,6 @@
+
+todos contra todos:   n(n-1)/2   n:participantes
+
+BRACKETS: oponentes:  n=2^x      :: x=entero
+           partidas:  1.5*n - 1
+

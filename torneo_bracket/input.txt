@@ -1,0 +1,11 @@
+water
+air
+leaf
+seed
+rock
+soil
+water
+leaf
+soil
+leaf
+leaf
