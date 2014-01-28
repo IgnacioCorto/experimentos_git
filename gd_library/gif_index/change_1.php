@@ -14,7 +14,7 @@ if(isset($_GET['text'])){
 	
 	$total_colors = imagecolorstotal($img);
 	
-	echo 'Total colors in image: ' , $total_colors , "\r\n";
+	echo '* Total colors in image: ' , $total_colors , "\r\n";
 	printf("Index of the color at (%d,%d): %d \r\n\r\n"
 			,20
 			,20
