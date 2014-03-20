@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+#resultado { font-size:16px; }
+#resultado span{ display:inline-block; vertical-align:top; }
+</style>
+
+</head>
+<body>
+<div id="resultado"></div>
+</body>
+</html>
+
+<script>
+var sizes = [12], multiplier = 1.62;
+
+for(var i=0;i<7;i++)
+    sizes.push(sizes[i]*multiplier);
+
+
+for(var i=sizes.length;i>=1;i--)
+    document.getElementById('resultado').innerHTML += 
+        "<span style='font-size:"+sizes[i-1]+"px'>"+i+''+i+"</span>";
+</script>
