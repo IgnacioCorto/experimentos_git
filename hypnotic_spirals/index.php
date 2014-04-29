@@ -51,8 +51,9 @@ to {-webkit-transform:rotate(360deg);}
 <?php } else { 
 
     foreach(glob('spirals/*') as $e) {
+        $file = basename($e);
         printf('<a href="?time=%s&photo=%s">%s</a><br />', 
-            $time, $e, $e);
+            $time, $file, $file);
     }
 
 
