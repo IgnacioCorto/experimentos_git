@@ -10,6 +10,7 @@ if(file_exists($photo)) { ?>
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
 .rotar1 {
 position:absolute;
@@ -31,16 +32,6 @@ from {-webkit-transform:rotate(0deg);}
 to {-webkit-transform:rotate(360deg);}
 }
 </style>
-
-<!--
--webkit-animation-name: myfirst;               /* name of keyframes */
--webkit-animation-duration: 1s;
--webkit-animation-timing-function: linear;     /* ease */
--webkit-animation-delay: 0s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-direction: normal;           /* alternate reverse */
--webkit-animation-play-state: running;         /* paused */
--->
 
 </head>
 <body>
